@@ -1,0 +1,86 @@
+#так обозначается комментарий#
+
+#так тоже
+обозначается
+комментарий,
+только
+многострочный#
+
+#инициализация переменных#
+(var a = 2.0)
+(var c = 10.0)
+
+#вывод простых арифметических операций#
+(print (+ a c))
+(print (* a c))
+(print (/ c a))
+(print (- c a))
+
+#инициализация и вывод строковой переменной#
+(var str = "Hello world")
+(print str)
+
+#инициализация и вывод булевой переменной#
+(var bl = true)
+(print bl)
+
+#булевые операции#
+(print (& 1 0))
+(print (| 0 0))
+
+#условные операторы if-else#
+(
+    if(== 2 3) :
+        (print "true")
+    else :
+        (print "false")
+)
+
+#функция, использующая цикл while#
+(
+    func fun {s} :
+  	(   
+        while (< s 10) :
+            ((print s) 
+            (fun (+ s 1)))
+    )
+) 
+
+(fun 1)
+
+#использование цикла for#
+(
+    for i [0 .. 3] :
+        (print i)
+)
+
+#применение kill#
+(while true :
+    ((print "LaLaLa")
+    kill)
+)
+
+#применение continue#
+(for i [0 .. 5] :
+    (if (== i 3) :
+        ("continue")
+    else :
+        (print i)
+    )
+)
+
+#функция факториала#
+(func fact {n} :
+    (
+        if(== n 0) :
+            1
+        else :
+            (* n (fact (- n 1)))
+    )
+)
+
+(print (fact 5))
+
+#работа с файлами#
+(print(read "./test.txt"))
+(write "./output.txt" "MIAY")

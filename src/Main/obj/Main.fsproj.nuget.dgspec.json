@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/arnemkova/fp-compiler-lab-girls/src/Main/Main.fsproj": {}
+  },
+  "projects": {
+    "/home/arnemkova/fp-compiler-lab-girls/src/Interpretator/Interpretator.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/arnemkova/fp-compiler-lab-girls/src/Interpretator/Interpretator.fsproj",
+        "projectName": "Interpretator",
+        "projectPath": "/home/arnemkova/fp-compiler-lab-girls/src/Interpretator/Interpretator.fsproj",
+        "packagesPath": "/home/arnemkova/.nuget/packages/",
+        "outputPath": "/home/arnemkova/fp-compiler-lab-girls/src/Interpretator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/arnemkova/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/sdk/8.0.202/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/arnemkova/fp-compiler-lab-girls/src/Parser/Parser.fsproj": {
+                "projectPath": "/home/arnemkova/fp-compiler-lab-girls/src/Parser/Parser.fsproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[8.0.200, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/arnemkova/fp-compiler-lab-girls/src/Main/Main.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/arnemkova/fp-compiler-lab-girls/src/Main/Main.fsproj",
+        "projectName": "Main",
+        "projectPath": "/home/arnemkova/fp-compiler-lab-girls/src/Main/Main.fsproj",
+        "packagesPath": "/home/arnemkova/.nuget/packages/",
+        "outputPath": "/home/arnemkova/fp-compiler-lab-girls/src/Main/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/arnemkova/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/sdk/8.0.202/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/arnemkova/fp-compiler-lab-girls/src/Interpretator/Interpretator.fsproj": {
+                "projectPath": "/home/arnemkova/fp-compiler-lab-girls/src/Interpretator/Interpretator.fsproj"
+              },
+              "/home/arnemkova/fp-compiler-lab-girls/src/Parser/Parser.fsproj": {
+                "projectPath": "/home/arnemkova/fp-compiler-lab-girls/src/Parser/Parser.fsproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[8.0.200, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/arnemkova/fp-compiler-lab-girls/src/Parser/Parser.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/arnemkova/fp-compiler-lab-girls/src/Parser/Parser.fsproj",
+        "projectName": "Parser",
+        "projectPath": "/home/arnemkova/fp-compiler-lab-girls/src/Parser/Parser.fsproj",
+        "packagesPath": "/home/arnemkova/.nuget/packages/",
+        "outputPath": "/home/arnemkova/fp-compiler-lab-girls/src/Parser/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/arnemkova/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/sdk/8.0.202/FSharp/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FParsec": {
+              "target": "Package",
+              "version": "[1.1.1, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[8.0.200, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

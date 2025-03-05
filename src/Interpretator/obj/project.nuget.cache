@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gd3zsuqeIp6Kanr2IYEvrxjtfx+V77lPraoDGn+7VDzOIFVJJ1DdZcNpD0HxOoxl66ccefkK/ZtENm74r9wfPA==",
+  "success": true,
+  "projectFilePath": "/home/arnemkova/fp-compiler-lab-girls/src/Interpretator/Interpretator.fsproj",
+  "expectedPackageFiles": [
+    "/home/arnemkova/.nuget/packages/fparsec/1.1.1/fparsec.1.1.1.nupkg.sha512",
+    "/home/arnemkova/.nuget/packages/fsharp.core/8.0.200/fsharp.core.8.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}
